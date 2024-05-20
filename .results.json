@@ -1,0 +1,179 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 8,
+    "passes": 4,
+    "pending": 0,
+    "failures": 4,
+    "start": "2024-05-20T09:37:09.903Z",
+    "end": "2024-05-20T09:37:12.106Z",
+    "duration": 2203
+  },
+  "tests": [
+    {
+      "title": "appends a cat to the end of the cats array and returns a new array",
+      "fullTitle": "cats array manipulation appends a cat to the end of the cats array and returns a new array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the beginning of the cats array and returns a new array",
+      "fullTitle": "cats array manipulation prepends a cat to the beginning of the cats array and returns a new array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last cat from the cats array and returns a new array",
+      "fullTitle": "cats array manipulation removes the last cat from the cats array and returns a new array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the first cat from the cats array and returns a new array",
+      "fullTitle": "cats array manipulation removes the first cat from the cats array and returns a new array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "appends a cat to the end of the cats array",
+      "fullTitle": "cats array manipulation appends a cat to the end of the cats array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 4 but got 3",
+        "showDiff": true,
+        "actual": "3",
+        "expected": "4",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 4 but got 3\n    at Context.<anonymous> (test\\indexTest.js:55:26)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "prepends a cat to the beginning of the cats array",
+      "fullTitle": "cats array manipulation prepends a cat to the beginning of the cats array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 4 but got 3",
+        "showDiff": true,
+        "actual": "3",
+        "expected": "4",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 4 but got 3\n    at Context.<anonymous> (test\\indexTest.js:61:26)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "removes the last cat from the cats array",
+      "fullTitle": "cats array manipulation removes the last cat from the cats array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 2 but got 3",
+        "showDiff": true,
+        "actual": "3",
+        "expected": "2",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 2 but got 3\n    at Context.<anonymous> (test\\indexTest.js:67:26)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "removes the first cat from the cats array",
+      "fullTitle": "cats array manipulation removes the first cat from the cats array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 2 but got 3",
+        "showDiff": true,
+        "actual": "3",
+        "expected": "2",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 2 but got 3\n    at Context.<anonymous> (test\\indexTest.js:73:26)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "appends a cat to the end of the cats array",
+      "fullTitle": "cats array manipulation appends a cat to the end of the cats array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 4 but got 3",
+        "showDiff": true,
+        "actual": "3",
+        "expected": "4",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 4 but got 3\n    at Context.<anonymous> (test\\indexTest.js:55:26)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "prepends a cat to the beginning of the cats array",
+      "fullTitle": "cats array manipulation prepends a cat to the beginning of the cats array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 4 but got 3",
+        "showDiff": true,
+        "actual": "3",
+        "expected": "4",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 4 but got 3\n    at Context.<anonymous> (test\\indexTest.js:61:26)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "removes the last cat from the cats array",
+      "fullTitle": "cats array manipulation removes the last cat from the cats array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 2 but got 3",
+        "showDiff": true,
+        "actual": "3",
+        "expected": "2",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 2 but got 3\n    at Context.<anonymous> (test\\indexTest.js:67:26)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "removes the first cat from the cats array",
+      "fullTitle": "cats array manipulation removes the first cat from the cats array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 2 but got 3",
+        "showDiff": true,
+        "actual": "3",
+        "expected": "2",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis', 'Garfield' ] to have a length of 2 but got 3\n    at Context.<anonymous> (test\\indexTest.js:73:26)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "appends a cat to the end of the cats array and returns a new array",
+      "fullTitle": "cats array manipulation appends a cat to the end of the cats array and returns a new array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the beginning of the cats array and returns a new array",
+      "fullTitle": "cats array manipulation prepends a cat to the beginning of the cats array and returns a new array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last cat from the cats array and returns a new array",
+      "fullTitle": "cats array manipulation removes the last cat from the cats array and returns a new array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the first cat from the cats array and returns a new array",
+      "fullTitle": "cats array manipulation removes the first cat from the cats array and returns a new array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
